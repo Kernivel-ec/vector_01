@@ -28,7 +28,7 @@ public class Vector_01 {
         
         //Creamos el ciclo repetitivo for para recorrer las posiciones del vector
         for(int x = 0 ; x < 10 ; x++){
-            //Lenamos la posicion x del vector con un numero aleatorio
+            //Llenamos la posicion x del vector con un numero aleatorio
             //Math.random es una funcionalidad de java que da numeros aleatorios ente 0.0 y 1
             //El 10 determina el valor maximo del numero random y 1 determina la cantidad minima del raondom
             // (int) esto comvierte los valores random en enteros, recordemos que los valores random obtenidos son double
@@ -54,7 +54,7 @@ public class Vector_01 {
             //Imprimimos los valores del vector
             System.out.println(valores[x]);
         }
-        //Colocamos un titulo que separe lo visible por consola
+        //Salida de resultados
         System.out.println("Resultados");
         System.out.println("El numero ingresado: " + num + " se repite: " + cont);
     }
